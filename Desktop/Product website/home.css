@@ -1,0 +1,306 @@
+/*---Navigation Bar---*/
+ul li a:hover{
+    color: rgb(26, 2, 129)!important;
+}
+ul li a {
+    color: rgb(79, 79, 148)!important;
+    font-weight: bold;
+}
+.search-box{
+    width: fit-content;
+    margin: 5px;
+    background: rgb(79, 79, 148);
+    height: 40px;
+    border-radius: 40px;
+    padding: 5px;
+}
+.search-btn{
+    color: rgb(28, 10, 53);
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    transition: 0.4s;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transform: 0.4s;
+    line-height: 30px;
+    width: 0px;
+}
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+
+.search-box:hover > .search-btn{
+    background: rgb(69, 33, 119);
+}
+#big{
+    font-weight: bold;
+    font-size: 70px;
+}
+#normal{
+    margin-bottom: 20px;
+}
+.lnk{
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    color:   rgb(79, 79, 148);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.lnk:hover{
+    text-decoration: none;
+}
+#about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: rgb(41, 40, 40);
+}
+.about-content{
+    padding-top: 20px;
+}
+.skills-bar p{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.progress{ 
+    margin-bottom: 20px;
+}
+
+
+#services{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/aPic2.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important ;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px ;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#services h2{
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+#services h2::after{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.services{
+    margin-top: 40px;
+}
+.icon{
+    font-size: 35px;
+    margin: 20px auto;
+    height: 70px;
+    width: 70px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+}
+#services p{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
+}
+.services .col-md-3:hover{
+    background: rgb(79, 79, 148);
+    cursor: pointer;
+    transition: 0.7s;
+}
+#testimonials{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#testimonials h2{
+    text-align: center;
+    color: rgb(41, 40, 40) !important;
+    padding-bottom: 10px;
+}
+#testimonials h2::after{
+    content: '';
+    background: rgb(79, 79, 148);
+    display: block;
+    height: 3px;
+    width: 150px;
+    margin: 20px auto 5px;
+    text-align: center;
+}
+#testimonials .row {
+    margin-top: 30px;
+}
+.col-md-3{
+    margin: 40px auto;
+}
+.profile{
+    padding: 70px 10px 10px;
+    background-color: #efefef;
+}
+.user{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.profile img{
+    top: -30px;
+    position: absolute;
+    left: calc(50%);
+    border: 10px solid #fff;
+}
+.profile h6{
+    font-size: 20px;
+    margin-top: 15px;
+    color: rgb(79, 79, 148);
+}
+#testimonials span{
+    font-size: 15px;
+    color: rgb(41, 40, 40);
+}
+blockquote{
+    font-size: 16px;
+    line-height: 30px;
+}
+blockquote::before{
+    content: open-quote;
+    font-size: 50px;
+    color: rgb(79, 79, 148);
+    position: relative;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+blockquote::after{
+    content: close-quote;
+    font-size: 50px;
+    color: rgb(79, 79, 148);
+    position: relative;
+    line-height: 10px;
+    bottom: -15px;
+    left: 5px;
+}
+.profile{
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn:hover{
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.text-center{
+    font-weight: bol;
+}
+/* Contact Us */
+#contact{
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+#contact h2{
+    text-align: center;
+    color: rgb(41, 40, 40) !important;
+    padding-bottom: 10px;
+}
+#contact h2::after{
+    content: '';
+    background: rgb(79, 79, 148);
+    display: block;
+    height: 3px;
+    width: 150px;
+    margin: 20px auto 5px;
+    text-align: center;
+}
+.contact-form{
+    padding: 15px;
+}
+.form-control{
+    border-radius: 0 !important;
+    border: none;
+}
+::placeholder{
+    color: #999 !important;
+}
+.follow{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+.logo{
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+}
+.logob{
+    width: 30px;
+    height: 30px;
+    border-radius: 10%;
+    margin-left: 20px;
+}
+.follow{
+    margin: 10px;
+    color: rgb(79, 79, 148);
+} 
+/* footer */
+#footer{
+    background: #333;
+    color: rgb(163, 159, 159);
+    padding: 12px;
+}
+
+.slideanim {visibility:hidden;}
+.slide {
+  /* The name of the animation */
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  /* The duration of the animation */
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  /* Make the element visible */
+  visibility: visible;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
